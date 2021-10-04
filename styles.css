@@ -1,0 +1,140 @@
+.parent-div{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.heading{
+    font-size: 40;
+    margin-top: 5%;
+    box-shadow: 2px 2px 20px   rgba(0, 0, 0, 0.4);
+    margin: 0px 12%;
+    padding: 15px 0px 15px 0px ;
+}
+.parent-main{
+    box-shadow: 2px 2px 20px   rgba(0, 0, 0, 0.4);
+    padding: 20px 0px 50px 0px;
+    margin: 0px 12%;
+    margin-top: 3%;
+    background-image: url(./photo/backgroundimage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.child-div{
+    font-size: 28;
+    color: honeydew;
+}
+.child-box{
+    font-size: 45;
+    color: honeydew;
+}
+.place-holder input{
+    padding: 15px 0px;
+    border-radius: 20px;
+    padding-left: 19px;
+    font-size: 18;
+    margin-bottom: 18px;
+    margin-top: 15px;
+    background-color: rgb(243, 120, 120);
+    
+}
+.place-box input{
+    padding: 15px 0px;
+    border-radius: 20px;
+    padding-left: 19px;
+    font-size: 18;
+    margin-bottom: 15px;
+    background-color: rgb(4, 92, 92);
+}
+.box-main{
+    box-shadow: 2px 2px 20px   rgba(0, 0, 0, 0.4);
+    padding: 30px 0px 30px 0px;
+    margin: 0px 12%;
+}
+.div-html input{
+    padding: 10px 0px ;
+    font-size: 18;
+    padding-left: 10px;
+}
+.div-css input{
+    padding: 10px 0px;
+    font-size: 18;
+    padding-left: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+.div-java input{
+    padding: 10px 0px ;
+    font-size: 18;
+    padding-left: 10px;
+}
+.image{
+     margin-bottom: -25px;
+}
+.table-main{
+    box-shadow: 2px 2px 20px   rgba(0, 0, 0, 0.4);
+    margin: 0px 12%;
+    padding: 35px 0px 10% 0px ;
+    display: flex;
+    padding-left: 18%;
+}
+.table-row{
+   font-size: 30;
+   padding-right: 29%;
+   color: tomato;
+}
+.table-coloumn{
+   font-size: 30;
+   color: teal;
+}
+
+/* .main-grid{
+    display: grid;
+} */
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width:900px)
+{
+    body{
+        background-color: palevioletred;
+    }    
+}
+
+@media screen and (max-width:700px)
+{
+    body{
+        background-color: yellow;
+    }    
+}
+
+@media screen and (max-width:500px)
+{
+    body{
+        background-color: rgb(16, 196, 172);
+    } 
+
+.place-holder input{
+    size: 10;
+    padding: 0% -90%;
+    /* margin: 0px 60%  ; */
+}
+ /* .div-html{
+    size: 20;
+}
+.div-css{
+
+}
+.div-java{
+
+} */
+.table-row{
+    font-size: 20;
+     margin-left: -28px; 
+}
+.table-coloumn {
+    font-size: 20;
+} 
+}
